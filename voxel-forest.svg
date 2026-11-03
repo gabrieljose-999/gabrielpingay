@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" shape-rendering="crispEdges">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#09221f"/><stop offset=".6" stop-color="#103d36"/><stop offset="1" stop-color="#101c19"/></linearGradient>
+    <linearGradient id="path" x2="0" y2="1"><stop stop-color="#9ddbb1"/><stop offset="1" stop-color="#385e49"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#83ffc3" stop-opacity=".54"/><stop offset="1" stop-color="#83ffc3" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="640" height="420" fill="url(#sky)"/><rect x="235" y="100" width="190" height="205" fill="url(#glow)"/>
+  <!-- blocky moonlit canopy -->
+  <path fill="#183a35" d="M0 0h208v24h32v32h-24v32h-32v32h-40v32h-32v32H72v48H0zM640 0H436v24h-32v32h24v32h32v32h40v32h32v32h40v48h68z"/>
+  <path fill="#23615a" d="M0 0h128v24h32v24h32v32h-24v24h-32v32h-32v24H72v32H40v32H0zm640 0H512v24h-32v24h-32v32h24v24h32v32h32v24h32v32h32v32h40z"/>
+  <path fill="#2e8a79" d="M0 24h48v24h32v24h32v24h-24v24h-24v24H40v24H16v24H0zm640 0h-48v24h-32v24h-32v24h24v24h24v24h24v24h24v24h16z"/>
+  <path fill="#70d5aa" d="M0 48h24v16h24v16h24v16h-16v16H40v16H24v16H8v16H0zm640 0h-24v16h-24v16h-24v16h16v16h16v16h16v16h16z"/>
+  <path fill="#b4f3c2" fill-opacity=".8" d="M16 40h16v16H16zm48 24h16v16H64zm48 32h16v16h-16zm-80 56h16v16H32zm560-112h-16v16h16zm-48 24h-16v16h16zm-48 32h-16v16h16zm80 56h-16v16h16z"/>
+  <!-- distant silhouettes -->
+  <path fill="#102721" d="M44 290h24V188h24v-28h24v28h20v102h24v48H44zm470 0h24V188h24v-28h24v28h20v102h24v48H514z"/>
+  <path fill="#174334" d="M116 286h20V212h20v-34h24v34h20v74h20v46H116zm266 0h20V212h20v-34h24v34h20v74h20v46H382z"/>
+  <!-- foreground trunks -->
+  <path fill="#0a1915" d="M0 347h88V202h24v-40h40v40h24v156h36v73H0zm428 0h36V202h24v-40h40v40h24v156h88v73H428z"/>
+  <path fill="#1a4131" d="M24 347h32V214h24v-32h16v32h16v133h20v73H24zm496 0h20V214h16v-32h24v32h16v133h32v73h-108z"/>
+  <!-- fern clusters -->
+  <path fill="#39a67b" d="M16 302h24v16H16zm24-16h24v16H40zm-8 32h24v16H32zm40-24h24v16H72zm-24 24h24v16H48zm512-16h24v16h-24zm-24-16h24v16h-24zm8 32h24v16h-24zm-40-24h24v16h-24zm24 24h24v16h-24z"/>
+  <!-- stepped forest path -->
+  <path fill="#17271f" d="M196 270h248v34h-32v30h-28v30h-24v24h-80v-24h-24v-30h-28v-30h-32z"/>
+  <path fill="url(#path)" d="M260 270h120v34h-16v30h-16v30h-16v24h-24v-24h-16v-30h-16v-30h-16z"/>
+  <path fill="#c7f5c5" fill-opacity=".55" d="M272 278h96v8h-96zm8 34h80v8h-80zm8 30h64v8h-64zm16 30h32v8h-32z"/>
+  <path fill="#34533d" d="M0 375h236v16H0zm404 0h236v16H404zM0 405h260v15H0zm380 0h260v15H380z"/>
+  <!-- warm lantern pixels -->
+  <path fill="#ffc85e" d="M142 222h8v8h-8zm-8 8h24v8h-24zm8 8h8v8h-8zm-76 26h8v8h-8zm-8 8h24v8H58zm8 8h8v8h-8zm436-50h8v8h-8zm-8 8h24v8h-24zm8 8h8v8h-8zm76 20h8v8h-8zm-8 8h24v8h-24zm8 8h8v8h-8z"/>
+  <path fill="#fff2a5" fill-opacity=".75" d="M146 230h4v8h-4zm-80 34h4v8h-4zm432-34h4v8h-4zm80 28h4v8h-4z"/>
+  <!-- floating pixels -->
+  <path fill="#b7ffd0" d="M240 144h8v8h-8zm24-24h8v8h-8zm128 34h8v8h-8zm-24-60h8v8h-8zm-144 96h8v8h-8z"/>
+  <rect y="412" width="640" height="8" fill="#09130e"/>
+</svg>
